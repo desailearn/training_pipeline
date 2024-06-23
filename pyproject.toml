@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "training-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["sudhindra <sudhindradesaitx@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.10"
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
